@@ -15,9 +15,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-![Flask](http://i.hizliresim.com/69pRXk.png)
-
-
 ## To view Database
 ```
 1.Type sqlite3 in command prompt.
@@ -26,5 +23,5 @@ python app.py
    SELECT * 
    FROM USER(here table name = user)
    ;
-3.For more commands type .help it will show lot of commands which might be usefull.
+3.For more commands type .help it will show lot of commands, which might be usefull.
 ``` 
