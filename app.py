@@ -2,7 +2,7 @@
 
 from flask import Flask, url_for, render_template, flash, request, redirect, session,logging,request
 from flask_sqlalchemy import SQLAlchemy
-# from instagram import getfollowedby, getname
+
 
 
 app = Flask(__name__)
@@ -28,8 +28,8 @@ def home():
 		return render_template('index.html')
 	else:
 		if request.method == 'POST':
-			# username = getname(request.form['username'])
-			return render_template('index.html') #data=getfollowedby(username))
+
+			return render_template('index.html') 
 		return render_template('index.html')
 
 
